@@ -39,7 +39,6 @@
                                 <th scope="col">N°</th>
                                 <th scope="col">Responsable</th>
                                 <th scope="col">Comprador</th>
-                                <th scope="col">Disponibilidad</th>
                             </tr>
                         </thead>
                         <tbody id="rows"></tbody>
@@ -62,7 +61,6 @@
                     <th scope="row">{{index}}</th>
                     <td>{{manager}}</td>
                     <td>{{buyer}}</td>
-                    <td>{{availability}}</td>
                 </tr>
             `;
 
@@ -570,7 +568,7 @@
             ];
             let count = 0;
             for (let item of arr) {
-                rowsElement.innerHTML += html.replace("{{index}}", item.index).replace("{{manager}}", item.manager ?? '---').replace("{{buyer}}", item.buyer ?? '---').replace("{{availability}}", item.manager && item.buyer ? 'NO' : 'SI');
+                rowsElement.innerHTML += html.replace("{{index}}", item.index).replace("{{manager}}", item.manager ?? '---').replace("{{buyer}}", item.buyer ?? '---');
 
                 if (item.manager && item.buyer) {
                     count++;
