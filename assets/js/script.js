@@ -532,6 +532,7 @@ document.addEventListener("DOMContentLoaded", () => {
 const runRulet = () => {
     if (celebrationElement) {
         celebrationElement.classList.remove("no-display");
+        celebrationElement.classList.remove("confeti");
     }
 
     let count = 0;
@@ -558,5 +559,8 @@ const winner = (array) => {
     r = r === 0 ? array.length : r;
     winnerElement.innerHTML = ``;
     winnerElement.innerHTML = `${array[r - 1].index}<br><span style="color: #444; font-weight: 400; font-size: 2rem; text-align: center; line-height: .85;">${array[r - 1].manager} - ${array[r - 1].buyer}<span>`;
-    celebrationElement.classList.add("confeti");
+
+    if (celebrationElement) {
+        celebrationElement.classList.add("confeti");
+    }
 }
