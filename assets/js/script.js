@@ -6,8 +6,8 @@ let winnerElement = document.querySelector("#winner");
 let participants = [
     {
         "index": 1,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Joerlin"
     },
     {
         "index": 2,
@@ -71,8 +71,8 @@ let participants = [
     },
     {
         "index": 14,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Joerlin"
     },
     {
         "index": 15,
