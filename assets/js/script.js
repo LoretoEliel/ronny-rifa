@@ -401,8 +401,8 @@ let participants = [
     },
     {
         "index": 80,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Dionisia"
     },
     {
         "index": 81,
