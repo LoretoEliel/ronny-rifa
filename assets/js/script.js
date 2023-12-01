@@ -161,8 +161,8 @@ let participants = [
     },
     {
         "index": 32,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Lisbeth Hernandez"
     },
     {
         "index": 33,
@@ -171,8 +171,8 @@ let participants = [
     },
     {
         "index": 34,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Lisbeth Hernandez"
     },
     {
         "index": 35,
@@ -206,8 +206,8 @@ let participants = [
     },
     {
         "index": 41,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Maria Linares"
     },
     {
         "index": 42,
@@ -216,13 +216,13 @@ let participants = [
     },
     {
         "index": 43,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Maria Linares"
     },
     {
         "index": 44,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Maria Linares"
     },
     {
         "index": 45,
@@ -271,8 +271,8 @@ let participants = [
     },
     {
         "index": 54,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Gina Flores"
     },
     {
         "index": 55,
@@ -286,8 +286,8 @@ let participants = [
     },
     {
         "index": 57,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Gina Flores"
     },
     {
         "index": 58,
@@ -316,8 +316,8 @@ let participants = [
     },
     {
         "index": 63,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Yorgelis Escobar"
     },
     {
         "index": 64,
@@ -336,13 +336,13 @@ let participants = [
     },
     {
         "index": 67,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Disleiby"
     },
     {
         "index": 68,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Maria Linares"
     },
     {
         "index": 69,
@@ -411,13 +411,13 @@ let participants = [
     },
     {
         "index": 82,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Maria Linares"
     },
     {
         "index": 83,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Maria Linares"
     },
     {
         "index": 84,
@@ -426,13 +426,13 @@ let participants = [
     },
     {
         "index": 85,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Maria Linares"
     },
     {
         "index": 86,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Maria Linares"
     },
     {
         "index": 87,
@@ -456,23 +456,23 @@ let participants = [
     },
     {
         "index": 91,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Maria Linares"
     },
     {
         "index": 92,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Maria Briceño"
     },
     {
         "index": 93,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Maria Linares"
     },
     {
         "index": 94,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Maria Linares"
     },
     {
         "index": 95,
@@ -486,8 +486,8 @@ let participants = [
     },
     {
         "index": 97,
-        "manager": null,
-        "buyer": null
+        "manager": "Ronny",
+        "buyer": "Maria Linares"
     },
     {
         "index": 98,
