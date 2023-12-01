@@ -558,7 +558,7 @@ const winner = (array) => {
     let r = Math.floor(Math.random() * array.length);
     r = r === 0 ? array.length : r;
     winnerElement.innerHTML = ``;
-    winnerElement.innerHTML = `${array[r - 1].index}<br><span style="color: #444; font-weight: 400; font-size: 2rem; text-align: center; line-height: .85;">${array[r - 1].manager} - ${array[r - 1].buyer}<span>`;
+    winnerElement.innerHTML = `${array[r - 1].index}<br><span style="color: #444; font-weight: 400; font-size: 2rem; text-align: center; line-height: .85;">${array[r - 1].buyer}<span>`;
 
     if (celebrationElement) {
         celebrationElement.classList.add("confeti");
