@@ -6,503 +6,403 @@ let winnerElement = document.querySelector("#winner");
 let participants = [
     {
         "index": 1,
-        "manager": "Ronny",
-        "buyer": "Joerlin"
+        "buyer": null
     },
     {
         "index": 2,
-        "manager": "Maria Linares",
-        "buyer": "Francis"
+        "buyer": null
     },
     {
         "index": 3,
-        "manager": "Ronald Duran",
-        "buyer": "Karen"
+        "buyer": null
     },
     {
         "index": 4,
-        "manager": "Eliel",
-        "buyer": "Genny Coutinho"
+        "buyer": null
     },
     {
         "index": 5,
-        "manager": "Mario",
-        "buyer": "Mario"
+        "buyer": null
     },
     {
         "index": 6,
-        "manager": "Maria Linares",
-        "buyer": "Abril"
+        "buyer": null
     },
     {
         "index": 7,
-        "manager": "Ronald Duran",
-        "buyer": "Karen"
+        "buyer": null
     },
     {
         "index": 8,
-        "manager": "Eliel",
-        "buyer": "Yendy"
+        "buyer": null
     },
     {
         "index": 9,
-        "manager": "Ronny",
-        "buyer": "Oriana"
+        "buyer": null
     },
     {
         "index": 10,
-        "manager": "Ronny",
-        "buyer": "Gulli"
+        "buyer": null
     },
     {
         "index": 11,
-        "manager": "Maria Linares",
-        "buyer": "Yeli"
+        "buyer": null
     },
     {
         "index": 12,
-        "manager": "Ronny",
-        "buyer": "Karina"
+        "buyer": null
     },
     {
         "index": 13,
-        "manager": "Eliel",
-        "buyer": "José Hernandez"
+        "buyer": null
     },
     {
         "index": 14,
-        "manager": "Ronny",
-        "buyer": "Joerlin"
+        "buyer": null
     },
     {
         "index": 15,
-        "manager": "Eliel",
-        "buyer": "Jahdiel Loreto"
+        "buyer": null
     },
     {
         "index": 16,
-        "manager": "Maria Linares",
-        "buyer": "Emily"
+        "buyer": null
     },
     {
         "index": 17,
-        "manager": "Rosene",
-        "buyer": "Maria Romandini"
+        "buyer": null
     },
     {
         "index": 18,
-        "manager": "Eliel",
-        "buyer": "Genny Coutinho"
+        "buyer": null
     },
     {
         "index": 19,
-        "manager": "Maria Linares",
-        "buyer": "Emily"
+        "buyer": null
     },
     {
         "index": 20,
-        "manager": "Ronny",
-        "buyer": "Gulli"
+        "buyer": null
     },
     {
         "index": 21,
-        "manager": "Cesar",
-        "buyer": "Gladys"
+        "buyer": null
     },
     {
         "index": 22,
-        "manager": "Ronny",
-        "buyer": "Karina"
+        "buyer": null
     },
     {
         "index": 23,
-        "manager": "Eliel",
-        "buyer": "Yendy"
+        "buyer": null
     },
     {
         "index": 24,
-        "manager": "Mario",
-        "buyer": "Mario"
+        "buyer": null
     },
     {
         "index": 25,
-        "manager": "Eliel",
-        "buyer": "Daniela"
+        "buyer": null
     },
     {
         "index": 26,
-        "manager": "Cesar",
-        "buyer": "Santiago"
+        "buyer": null
     },
     {
         "index": 27,
-        "manager": "Cesar",
-        "buyer": "Gladys"
+        "buyer": null
     },
     {
         "index": 28,
-        "manager": "Rosene",
-        "buyer": "Andres Cadiño"
+        "buyer": null
     },
     {
         "index": 29,
-        "manager": "Ronny",
-        "buyer": "Tia"
+        "buyer": null
     },
     {
         "index": 30,
-        "manager": "Ronny",
-        "buyer": "Gulli"
+        "buyer": null
     },
     {
         "index": 31,
-        "manager": "Ronny",
-        "buyer": "Tia"
+        "buyer": null
     },
     {
         "index": 32,
-        "manager": "Ronny",
-        "buyer": "Lisbeth Hernandez"
+        "buyer": null
     },
     {
         "index": 33,
-        "manager": "Ronny",
-        "buyer": "Martina"
+        "buyer": null
     },
     {
         "index": 34,
-        "manager": "Ronny",
-        "buyer": "Lisbeth Hernandez"
+        "buyer": null
     },
     {
         "index": 35,
-        "manager": "Eliel",
-        "buyer": "Javier Blanco"
+        "buyer": null
     },
     {
         "index": 36,
-        "manager": "Cesar",
-        "buyer": "Gladys"
+        "buyer": null
     },
     {
         "index": 37,
-        "manager": "Maria Linares",
-        "buyer": "Maria Linares"
+        "buyer": null
     },
     {
         "index": 38,
-        "manager": "Maria Linares",
-        "buyer": "Maria Linares"
+        "buyer": null
     },
     {
         "index": 39,
-        "manager": "Eliel",
-        "buyer": "Manuel Mejias"
+        "buyer": null
     },
     {
         "index": 40,
-        "manager": "Ronny",
-        "buyer": "Gulli"
+        "buyer": null
     },
     {
         "index": 41,
-        "manager": "Ronny",
-        "buyer": "Maria Linares"
+        "buyer": null
     },
     {
         "index": 42,
-        "manager": "Ronny",
-        "buyer": "Lilibeth Mendoza"
+        "buyer": null
     },
     {
         "index": 43,
-        "manager": "Ronny",
-        "buyer": "Maria Linares"
+        "buyer": null
     },
     {
         "index": 44,
-        "manager": "Ronny",
-        "buyer": "Maria Linares"
+        "buyer": null
     },
     {
         "index": 45,
-        "manager": "Ronny",
-        "buyer": "David"
+        "buyer": null
     },
     {
         "index": 46,
-        "manager": "Maria Linares",
-        "buyer": "Maigualida"
+        "buyer": null
     },
     {
         "index": 47,
-        "manager": "Victoria",
-        "buyer": "Norelys Torres"
+        "buyer": null
     },
     {
         "index": 48,
-        "manager": "Rosene",
-        "buyer": "Hilda campos"
+        "buyer": null
     },
     {
         "index": 49,
-        "manager": "Ronny",
-        "buyer": "Sarai Iglesias"
+        "buyer": null
     },
     {
         "index": 50,
-        "manager": "Ronny",
-        "buyer": "Gulli"
+        "buyer": null
     },
     {
         "index": 51,
-        "manager": "Victoria",
-        "buyer": "Ema Hernández"
+        "buyer": null
     },
     {
         "index": 52,
-        "manager": "Ronny",
-        "buyer": "Karina"
+        "buyer": null
     },
     {
         "index": 53,
-        "manager": "Maria Linares",
-        "buyer": "Yulitza"
+        "buyer": null
     },
     {
         "index": 54,
-        "manager": "Ronny",
-        "buyer": "Gina Flores"
+        "buyer": null
     },
     {
         "index": 55,
-        "manager": "Maria Linares",
-        "buyer": "Yeli"
+        "buyer": null
     },
     {
         "index": 56,
-        "manager": "Rosene",
-        "buyer": "Sandra"
+        "buyer": null
     },
     {
         "index": 57,
-        "manager": "Ronny",
-        "buyer": "Gina Flores"
+        "buyer": null
     },
     {
         "index": 58,
-        "manager": "Rosene",
-        "buyer": "Dilcia Alejo"
+        "buyer": null
     },
     {
         "index": 59,
-        "manager": "Maria Linares",
-        "buyer": "Yule"
+        "buyer": null
     },
     {
         "index": 60,
-        "manager": "Maria Linares",
-        "buyer": "Francisbel"
+        "buyer": null
     },
     {
         "index": 61,
-        "manager": "Maria Linares",
-        "buyer": "Emily"
+        "buyer": null
     },
     {
         "index": 62,
-        "manager": "Maria Linares",
-        "buyer": "Emily"
+        "buyer": null
     },
     {
         "index": 63,
-        "manager": "Ronny",
-        "buyer": "Yorgelis Escobar"
+        "buyer": null
     },
     {
         "index": 64,
-        "manager": "Dr. Darianny",
-        "buyer": "Dr. Darianny"
+        "buyer": null
     },
     {
         "index": 65,
-        "manager": "Ronny",
-        "buyer": "Sarai Iglesias"
+        "buyer": null
     },
     {
         "index": 66,
-        "manager": "Cesar",
-        "buyer": "Cesar"
+        "buyer": null
     },
     {
         "index": 67,
-        "manager": "Ronny",
-        "buyer": "Disleiby"
+        "buyer": null
     },
     {
         "index": 68,
-        "manager": "Ronny",
-        "buyer": "Maria Linares"
+        "buyer": null
     },
     {
         "index": 69,
-        "manager": "Eliel",
-        "buyer": "Frainzuanklin"
+        "buyer": null
     },
     {
         "index": 70,
-        "manager": "Ronny",
-        "buyer": "Martina"
+        "buyer": null
     },
     {
         "index": 71,
-        "manager": "Ronny",
-        "buyer": "Andres Zoto"
+        "buyer": null
     },
     {
         "index": 72,
-        "manager": "Ronny",
-        "buyer": "Andres Zoto"
+        "buyer": null
     },
     {
         "index": 73,
-        "manager": "Ronny",
-        "buyer": "Andres Zoto"
+        "buyer": null
     },
     {
         "index": 74,
-        "manager": "Ronny",
-        "buyer": "Andres Zoto"
+        "buyer": null
     },
     {
         "index": 75,
-        "manager": "Ronny",
-        "buyer": "Andres Zoto"
+        "buyer": null
     },
     {
         "index": 76,
-        "manager": "Ronny",
-        "buyer": "Adia Linares"
+        "buyer": null
     },
     {
         "index": 77,
-        "manager": "Maria Linares",
-        "buyer": "Francisbel"
+        "buyer": null
     },
     {
         "index": 78,
-        "manager": "Ronny",
-        "buyer": "Lilibeth Mendoza"
+        "buyer": null
     },
     {
         "index": 79,
-        "manager": "Maria Linares",
-        "buyer": "Mirla"
+        "buyer": null
     },
     {
         "index": 80,
-        "manager": "Ronny",
-        "buyer": "Dionisia"
+        "buyer": null
     },
     {
         "index": 81,
-        "manager": "Ronald",
-        "buyer": "Nacary del valle"
+        "buyer": null
     },
     {
         "index": 82,
-        "manager": "Ronny",
-        "buyer": "Maria Linares"
+        "buyer": null
     },
     {
         "index": 83,
-        "manager": "Ronny",
-        "buyer": "Maria Linares"
+        "buyer": null
     },
     {
         "index": 84,
-        "manager": "Ronny",
-        "buyer": "Karina"
+        "buyer": null
     },
     {
         "index": 85,
-        "manager": "Ronny",
-        "buyer": "Maria Linares"
+        "buyer": null
     },
     {
         "index": 86,
-        "manager": "Ronny",
-        "buyer": "Maria Linares"
+        "buyer": null
     },
     {
         "index": 87,
-        "manager": "Ronny",
-        "buyer": "Agnire"
+        "buyer": null
     },
     {
         "index": 88,
-        "manager": "Eliel",
-        "buyer": "Javier Blanco"
+        "buyer": null
     },
     {
         "index": 89,
-        "manager": "Maholys",
-        "buyer": "Maholys"
+        "buyer": null
     },
     {
         "index": 90,
-        "manager": "Ronny",
-        "buyer": "Oriana"
+        "buyer": null
     },
     {
         "index": 91,
-        "manager": "Ronny",
-        "buyer": "Maria Linares"
+        "buyer": null
     },
     {
         "index": 92,
-        "manager": "Ronny",
-        "buyer": "Maria Briceño"
+        "buyer": null
     },
     {
         "index": 93,
-        "manager": "Ronny",
-        "buyer": "Maria Linares"
+        "buyer": null
     },
     {
         "index": 94,
-        "manager": "Ronny",
-        "buyer": "Maria Linares"
+        "buyer": null
     },
     {
         "index": 95,
-        "manager": "Ronny",
-        "buyer": "Lilibeth Mendoza"
+        "buyer": null
     },
     {
         "index": 96,
-        "manager": "Ronny",
-        "buyer": "David"
+        "buyer": null
     },
     {
         "index": 97,
-        "manager": "Ronny",
-        "buyer": "Maria Linares"
+        "buyer": null
     },
     {
         "index": 98,
-        "manager": "Eliel",
-        "buyer": "José Hernandez"
+        "buyer": null
     },
     {
         "index": 99,
-        "manager": "Cesar",
-        "buyer": "Cesar"
+        "buyer": null
     },
     {
         "index": 100,
-        "manager": "Ronny",
-        "buyer": "Karina"
+        "buyer": null
     }
 ];
 
@@ -512,14 +412,13 @@ document.addEventListener("DOMContentLoaded", () => {
     let html = `
         <tr>
             <th scope="row">{{index}}</th>
-            <td>{{manager}}</td>
             <td>{{buyer}}</td>
         </tr>
     `;
 
     let count = 0;
     for (let participant of participants) {
-        rowsElement.innerHTML += html.replace("{{index}}", participant.index).replace("{{manager}}", participant.manager ?? '---').replace("{{buyer}}", participant.buyer ?? '---');
+        rowsElement.innerHTML += html.replace("{{index}}", participant.index).replace("{{buyer}}", participant.buyer ?? '---');
 
         if (participant.manager && participant.buyer) {
             count++;
@@ -539,7 +438,7 @@ const runRulet = () => {
     let r = 0;
 
     let id = setInterval(() => {
-        let newArray = participants.filter((item) => item.manager != null && item.buyer != null);
+        let newArray = participants.filter((item) => item.buyer != null);
         r = Math.floor(Math.random() * newArray.length);
         r = r === 0 ? newArray.length : r;
         winnerElement.innerHTML = ``;
