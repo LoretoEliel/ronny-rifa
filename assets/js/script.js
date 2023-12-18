@@ -220,7 +220,7 @@ document.addEventListener("DOMContentLoaded", () => {
     for (let participant of participants) {
         rowsElement.innerHTML += html.replace("{{index}}", participant.index).replace("{{buyer}}", participant.buyer ?? '---');
 
-        if (participant.manager && participant.buyer) {
+        if (participant.buyer) {
             count++;
         }
     }
