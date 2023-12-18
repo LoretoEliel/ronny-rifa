@@ -6,404 +6,204 @@ let winnerElement = document.querySelector("#winner");
 let participants = [
     {
         "index": 1,
-        "buyer": null
+        "buyer": "Yarisma"
     },
     {
         "index": 2,
-        "buyer": null
+        "buyer": "Yendy"
     },
     {
         "index": 3,
-        "buyer": null
+        "buyer": "Yuliana"
     },
     {
         "index": 4,
-        "buyer": null
+        "buyer": "Yuliana"
     },
     {
         "index": 5,
-        "buyer": null
+        "buyer": "Yuliana"
     },
     {
         "index": 6,
-        "buyer": null
+        "buyer": "Yendy"
     },
     {
         "index": 7,
-        "buyer": null
+        "buyer": "Licda. Jenifer"
     },
     {
         "index": 8,
-        "buyer": null
+        "buyer": "Tibisai Malenche"
     },
     {
         "index": 9,
-        "buyer": null
+        "buyer": "Iliana"
     },
     {
         "index": 10,
-        "buyer": null
+        "buyer": "Carmen"
     },
     {
         "index": 11,
-        "buyer": null
+        "buyer": "Yerelis"
     },
     {
         "index": 12,
-        "buyer": null
+        "buyer": "Yendy"
     },
     {
         "index": 13,
-        "buyer": null
+        "buyer": "Yendy"
     },
     {
         "index": 14,
-        "buyer": null
+        "buyer": "Oscairin"
     },
     {
         "index": 15,
-        "buyer": null
+        "buyer": "Rosmary"
     },
     {
         "index": 16,
-        "buyer": null
+        "buyer": "Ivis"
     },
     {
         "index": 17,
-        "buyer": null
+        "buyer": "Luz Marina"
     },
     {
         "index": 18,
-        "buyer": null
+        "buyer": "Yuliana"
     },
     {
         "index": 19,
-        "buyer": null
+        "buyer": "Yendy"
     },
     {
         "index": 20,
-        "buyer": null
+        "buyer": "Genny Coutinho"
     },
     {
         "index": 21,
-        "buyer": null
+        "buyer": "Migdalys"
     },
     {
         "index": 22,
-        "buyer": null
+        "buyer": "Aranza"
     },
     {
         "index": 23,
-        "buyer": null
+        "buyer": "Diana Sangrona"
     },
     {
         "index": 24,
-        "buyer": null
+        "buyer": "Rosmary"
     },
     {
         "index": 25,
-        "buyer": null
+        "buyer": "Andry"
     },
     {
         "index": 26,
-        "buyer": null
+        "buyer": "Luisaura"
     },
     {
         "index": 27,
-        "buyer": null
+        "buyer": "Marlene"
     },
     {
         "index": 28,
-        "buyer": null
+        "buyer": "Alvismary"
     },
     {
         "index": 29,
-        "buyer": null
+        "buyer": "Yarisma"
     },
     {
         "index": 30,
-        "buyer": null
+        "buyer": "Genny Coutinho"
     },
     {
         "index": 31,
-        "buyer": null
+        "buyer": "Ida"
     },
     {
         "index": 32,
-        "buyer": null
+        "buyer": "Elianyelis"
     },
     {
         "index": 33,
-        "buyer": null
+        "buyer": "Iliana"
     },
     {
         "index": 34,
-        "buyer": null
+        "buyer": "Tibisai"
     },
     {
         "index": 35,
-        "buyer": null
+        "buyer": "Milagros"
     },
     {
         "index": 36,
-        "buyer": null
+        "buyer": "Alvismary"
     },
     {
         "index": 37,
-        "buyer": null
+        "buyer": "Jackeline"
     },
     {
         "index": 38,
-        "buyer": null
+        "buyer": "Yuliana"
     },
     {
         "index": 39,
-        "buyer": null
+        "buyer": "Genny Coutinho"
     },
     {
         "index": 40,
-        "buyer": null
+        "buyer": "Genny Coutinho"
     },
     {
         "index": 41,
-        "buyer": null
+        "buyer": "Yarelis"
     },
     {
         "index": 42,
-        "buyer": null
+        "buyer": "Genny Coutinho"
     },
     {
         "index": 43,
-        "buyer": null
+        "buyer": "Yenire"
     },
     {
         "index": 44,
-        "buyer": null
+        "buyer": "Eliel"
     },
     {
         "index": 45,
-        "buyer": null
+        "buyer": "Moraima"
     },
     {
         "index": 46,
-        "buyer": null
+        "buyer": "Eliel"
     },
     {
         "index": 47,
-        "buyer": null
+        "buyer": "Cuchi"
     },
     {
         "index": 48,
-        "buyer": null
+        "buyer": "Yenire"
     },
     {
         "index": 49,
-        "buyer": null
+        "buyer": "Jenifer"
     },
     {
         "index": 50,
-        "buyer": null
+        "buyer": "Eliel"
     },
-    {
-        "index": 51,
-        "buyer": null
-    },
-    {
-        "index": 52,
-        "buyer": null
-    },
-    {
-        "index": 53,
-        "buyer": null
-    },
-    {
-        "index": 54,
-        "buyer": null
-    },
-    {
-        "index": 55,
-        "buyer": null
-    },
-    {
-        "index": 56,
-        "buyer": null
-    },
-    {
-        "index": 57,
-        "buyer": null
-    },
-    {
-        "index": 58,
-        "buyer": null
-    },
-    {
-        "index": 59,
-        "buyer": null
-    },
-    {
-        "index": 60,
-        "buyer": null
-    },
-    {
-        "index": 61,
-        "buyer": null
-    },
-    {
-        "index": 62,
-        "buyer": null
-    },
-    {
-        "index": 63,
-        "buyer": null
-    },
-    {
-        "index": 64,
-        "buyer": null
-    },
-    {
-        "index": 65,
-        "buyer": null
-    },
-    {
-        "index": 66,
-        "buyer": null
-    },
-    {
-        "index": 67,
-        "buyer": null
-    },
-    {
-        "index": 68,
-        "buyer": null
-    },
-    {
-        "index": 69,
-        "buyer": null
-    },
-    {
-        "index": 70,
-        "buyer": null
-    },
-    {
-        "index": 71,
-        "buyer": null
-    },
-    {
-        "index": 72,
-        "buyer": null
-    },
-    {
-        "index": 73,
-        "buyer": null
-    },
-    {
-        "index": 74,
-        "buyer": null
-    },
-    {
-        "index": 75,
-        "buyer": null
-    },
-    {
-        "index": 76,
-        "buyer": null
-    },
-    {
-        "index": 77,
-        "buyer": null
-    },
-    {
-        "index": 78,
-        "buyer": null
-    },
-    {
-        "index": 79,
-        "buyer": null
-    },
-    {
-        "index": 80,
-        "buyer": null
-    },
-    {
-        "index": 81,
-        "buyer": null
-    },
-    {
-        "index": 82,
-        "buyer": null
-    },
-    {
-        "index": 83,
-        "buyer": null
-    },
-    {
-        "index": 84,
-        "buyer": null
-    },
-    {
-        "index": 85,
-        "buyer": null
-    },
-    {
-        "index": 86,
-        "buyer": null
-    },
-    {
-        "index": 87,
-        "buyer": null
-    },
-    {
-        "index": 88,
-        "buyer": null
-    },
-    {
-        "index": 89,
-        "buyer": null
-    },
-    {
-        "index": 90,
-        "buyer": null
-    },
-    {
-        "index": 91,
-        "buyer": null
-    },
-    {
-        "index": 92,
-        "buyer": null
-    },
-    {
-        "index": 93,
-        "buyer": null
-    },
-    {
-        "index": 94,
-        "buyer": null
-    },
-    {
-        "index": 95,
-        "buyer": null
-    },
-    {
-        "index": 96,
-        "buyer": null
-    },
-    {
-        "index": 97,
-        "buyer": null
-    },
-    {
-        "index": 98,
-        "buyer": null
-    },
-    {
-        "index": 99,
-        "buyer": null
-    },
-    {
-        "index": 100,
-        "buyer": null
-    }
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -420,7 +220,7 @@ document.addEventListener("DOMContentLoaded", () => {
     for (let participant of participants) {
         rowsElement.innerHTML += html.replace("{{index}}", participant.index).replace("{{buyer}}", participant.buyer ?? '---');
 
-        if (participant.manager && participant.buyer) {
+        if (participant.buyer) {
             count++;
         }
     }
