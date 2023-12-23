@@ -134,7 +134,7 @@ let participants = [
     },
     {
         "index": 33,
-        "buyer": "Iliana"
+        "buyer": "Juniarkys"
     },
     {
         "index": 34,
